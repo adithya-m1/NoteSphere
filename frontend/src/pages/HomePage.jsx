@@ -47,7 +47,7 @@ function HomePage() {
   <p className="text-base text-base-content/70 mt-2">Hang tight! We're getting your notes ready.</p>
 </div>
  }
-       {notes.length ==0  && <NotesNotFound /> }
+       {notes.length === 0  && <NotesNotFound /> }
        {notes.length > 0 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {notes.map(note => (
